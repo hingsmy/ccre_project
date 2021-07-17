@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'ccre.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'ccredb',
+        'NAME': 'ccredb2',
         'USER': 'postgres',
         'PASSWORD': '123456',
         'HOST': 'localhost'
@@ -134,3 +134,8 @@ STATICFILES_DIRS = [
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+# Media Folder Settings
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
