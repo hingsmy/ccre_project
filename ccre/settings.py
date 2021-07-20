@@ -148,3 +148,10 @@ MEDIA_URL = '/media/'
 MESSAGE_TAGS = {
     messages.ERROR: 'danger',
 }
+
+# Email config
+EMAIL_HOST = 'smtp.qq.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'li54zz@qq.com'
+EMAIL_HOST_PASSWORD = 'li0531wei'
+EMAIL_USE_TLS = True
